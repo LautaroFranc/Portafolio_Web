@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 body{
-  background-color:#2a0341;
-  
+  background-color:#2a0341; 
 }
+
 html{
   scroll-behavior: smooth;
 
@@ -24,7 +24,22 @@ body::-webkit-scrollbar-thumb
   background-color:#fff;
   border-radius: 50px;
 }
-
+.conteiner{
+  display:none;
+}
+.loading-img{
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.none{
+  display: none;
+}
+.loading-img img{
+  width: 5%;
+}
 nav{
   background-color:#25252562;
   display: flex;

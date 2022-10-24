@@ -1,10 +1,16 @@
 import proyect from "./Proyectos.js";
-
 const li_cards = document.querySelector(".item-lista");
 const Filter_proyectos = document.querySelector(".Filter-proyect");
 const background_contener = document.querySelector(".container-Im");
-const background_contener_contact =
-  document.querySelector(".container-contact");
+const background_contener_contact = document.querySelector(".container-contact");
+const conteiner = document.querySelector(".conteiner")
+const loading = document.querySelector(".loading-img")
+
+ window.onload =()=>{
+    loading.classList.add("none")
+    conteiner.classList.remove("conteiner")
+
+ }
 
 let cont = 0;
 setInterval(() => {
