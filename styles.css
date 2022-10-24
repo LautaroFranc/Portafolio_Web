@@ -488,7 +488,7 @@ nav{
 
 .about-img{
   width: 100%;
-  height:45%;
+  height:40%;
   margin: 100px;
 }
 
@@ -598,7 +598,6 @@ nav{
   margin:0 5px;
 
 }
-
 
 .item-lista{ 
   display: flex; 
