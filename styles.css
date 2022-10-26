@@ -81,7 +81,27 @@ nav{
   width: 70%;
   cursor: pointer;
 }
-
+.item-li-ajustes-conteiner{
+  position:absolute;
+  margin:50px 40px;
+  background:#252525;
+  height:100px;
+  padding:10px;
+  display:none;
+  flex-direction: column;
+}
+.item-li-ajustes{
+  width: 100px;
+  padding:10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14pt;
+  transition:all 0.5s;
+}
+.item-li-ajustes:hover{
+  background-color: #2a0341;
+  
+}
 .container-Im{
   background-color: #1e0631;
   display: flex;
@@ -296,7 +316,7 @@ nav{
   flex-direction: column;
   width: 100%;
 }
-#titulo-proyect {
+.titulo-proyect {
   position: relative;
   z-index: 2;
   color: #fc06be;
@@ -304,7 +324,7 @@ nav{
   font-size:38pt;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#titulo-proyect::after{
+.titulo-proyect::after{
   content: "";
   width: 100px;
   position: absolute;
@@ -313,7 +333,7 @@ nav{
   border-radius:4px;
   border-bottom:60px solid yellow;
 }
-#titulo-proyect::before{
+.titulo-proyect::before{
   content: "MY";
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: absolute;
@@ -340,6 +360,7 @@ nav{
   flex-direction: column;
   align-items: center;
 }
+
 .Select{
   transition: all 0.2s;
   border-bottom: 1px solid rgb(255, 208, 0);
@@ -356,11 +377,15 @@ nav{
 
 .item-lista li{
   border-radius: 5px;
-  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.993);
-  margin:5px;
+  margin:1px;
   width:280px;
   height:200px;
   overflow: hidden;
+  transition: all 0.2s;
+}
+.item-lista li:hover{
+  width:290px;
+  height:220px;
 }
 .item-lista-img{
   width: 170%;
@@ -371,8 +396,8 @@ nav{
 #enlaces{
   position: absolute;
   overflow: hidden;
-  margin-top:-34ch;
-  width:280px;
+  margin-top:-35ch;
+  width:290px;
   height:200px;
 }
 
@@ -381,16 +406,22 @@ nav{
   background-color: #252525;
   display:block;
   text-decoration:none;
-  width:280px;
   font-family: 'Antic Slab', serif;
-  height:200px;
   padding:5px;
   margin:200px 0;
   color:#fff;
+  height:200px;
+  border:1px solid #fff;
   transition:margin 0.2s ease-in-out; 
+}
+#enlaces:hover{
+  height:220px;
+
 }
 #enlaces:hover a{
   margin:0px 0;
+  height:220px;
+
 }
 
 #enlaces-text{
@@ -485,7 +516,8 @@ nav{
   display:none;
 }
 .nav-ul-ajustes{
-  display: none; 
+ position: absolute;
+ right: 0;
 }
 
 .menu-none{
@@ -756,6 +788,7 @@ nav{
 }
 #enlaces:hover a{
   margin:0px 0;
+
 }
 
 #enlaces-text{

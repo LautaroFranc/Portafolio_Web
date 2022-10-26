@@ -1,9 +1,25 @@
 
+import language from "./language.js"
 const nav = document.querySelector(".nav-ul")
 const Img = document.querySelector("#img-menu")
-const Home = document.getElementById("about")
-
 let urlSrc={menu1:"https://img.icons8.com/nolan/344/1A6DFF/C822FF/drag-list-down.png",menu2:"./img/icons8-menu.svg"}
+const  MenuSetting = document.querySelector(".item-li-ajustes-conteiner")
+const OnClikSetting  = document.querySelector("#menu-setting")
+
+const handleLanguage = (e) =>{
+ 
+    for(const text of document.querySelectorAll("#language-spa")){
+      if (e=="Español" || e=="Spanish") {
+        language.languageSpanish.hasOwnProperty(text.innerHTML)&&(text.innerHTML = language.languageSpanish[text.innerHTML])
+      }else if(e=="Ingles" || e=="English") {
+        language.languageEnglish.hasOwnProperty(text.innerHTML)&&(text.innerHTML = language.languageEnglish[text.innerHTML])
+      }
+      MenuSetting.style.display = "none"
+      OnClikSetting.style.transition="all 1s"
+      OnClikSetting.style.transform="rotate(0deg)"
+  } 
+}
+
 
 const ManuNav = () =>{
   for(const urlImg  of Img.attributes){
@@ -21,8 +37,6 @@ const ManuNav = () =>{
     nav.classList.remove("menu-none")
   }
 }
-
-console.log(window.screen.width)
 
 const objectScroll={
   "inicio":0,
@@ -49,4 +63,4 @@ const handleOnClick = e =>{
 
 
 
-export default {ManuNav,handleOnClick}
+export default {ManuNav,handleOnClick,handleLanguage}

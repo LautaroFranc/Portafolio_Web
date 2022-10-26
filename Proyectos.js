@@ -7,7 +7,7 @@ export default {  bloques: [
     <p id="enlaces-text">
       <span class="icono-search"></span>
       <span class="enlaces-title">Movie</span>
-      desarrollada con
+      <p id="language-spa">desarrollada con</p>
       <span class="skill-enlace">
        react, react-redux
        </span>
@@ -22,7 +22,7 @@ export default {  bloques: [
     <p id="enlaces-text">
       <span class="icono-search"></span>
       <span class="enlaces-title">Dog</span>
-      desarrollada con
+      <p id="language-spa">desarrollada con</p>
       <span class="skill-enlace">
       react, react-redux, sql, express, node.js 
       </span>
@@ -39,7 +39,7 @@ export default {  bloques: [
     <p id="enlaces-text">
       <span class="icono-search"></span>
       <span class="enlaces-title">Pokedex</span>
-      desarrollada con
+      <p id="language-spa">desarrollada con</p>
       <span class="skill-enlace">
        react, react-redux, sql, express, node.js, syled-componet 
       </span>
@@ -54,7 +54,7 @@ export default {  bloques: [
     <p id="enlaces-text">
       <span class="icono-search"></span>
       <span class="enlaces-title">Fit Focus</span>
-      fit focus es una app de ejercicios desarrolla con las siguientes tecnologias:
+      <p id="language-spa">fit focus es una app de ejercicios desarrolla con las siguientes tecnologias:</p>
       <span class="skill-enlace">
         react, react native, typescript, redux toolkit, mongoose, mongodb, tailwind, node.js
       </span>

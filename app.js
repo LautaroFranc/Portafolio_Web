@@ -7,12 +7,25 @@ const background_contener = document.querySelector(".container-Im");
 const background_contener_contact = document.querySelector(".container-contact");
 const conteiner = document.querySelector(".conteiner")
 const loading = document.querySelector(".loading-img")
+const  MenuSetting = document.querySelector(".item-li-ajustes-conteiner")
+const OnClikSetting  = document.querySelector("#menu-setting")
 
 
 menu.onclick =()=>{
   Nav.ManuNav()
 } 
 
+OnClikSetting.onclick =()=>{
+  let display = MenuSetting.style.display
+  display==="flex"? MenuSetting.style.display="none":MenuSetting.style.display="flex"
+  OnClikSetting.style.transition="all 1s"
+  display==="flex"? OnClikSetting.style.transform="rotate(0deg)":OnClikSetting.style.transform="rotate(200deg)"
+}
+for(const language of document.querySelectorAll(".item-li-ajustes") ){
+  language.onclick = e =>{
+    Nav.handleLanguage(e.target.innerHTML)
+  }
+}
 for(const li of document.querySelectorAll(".nav-li")){
   li.onclick = e =>{
     Nav.handleOnClick(e.target.innerHTML)
@@ -81,7 +94,6 @@ function filter(e) {
     }
     return;
   }
-
   for (let i = 0; i < proyect.bloques.length; i++) {
     li_cards.innerHTML += proyect.bloques[i];
   }
@@ -90,6 +102,8 @@ function filter(e) {
 
 filter();
 
-Filter_proyectos.onclick = (e) => {
-  filter(e);
-};
+for (const skillMenu of document.querySelectorAll(".li-filter")) {
+    skillMenu.onclick=e=>{
+    filter(e);
+  }
+}
