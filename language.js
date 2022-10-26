@@ -2,7 +2,7 @@
 
 const languageSpanish ={
   "Home":"inicio",
-  "Abaout":"sobre mi",
+  "About":"sobre mi",
   "Skill":"Habilidades",
   "Proyect":"proyectos",
   "Contact":"contactos",
@@ -30,7 +30,7 @@ const languageSpanish ={
 
 const languageEnglish ={
   "inicio":"Home",
-  "sobre mi":"Abaout",
+  "sobre mi":"About",
   "Habilidades":"Skill",
   "proyectos":"Proyect",
   "contactos":"Contact",
