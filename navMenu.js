@@ -39,11 +39,11 @@ const ManuNav = () =>{
 }
 
 const objectScroll={
-  "inicio":0,
-  "sobre mi":window.screen.width>700?650:950,
+  "Inicio":0,
+  "Sobre mi":window.screen.width>700?650:950,
   "Habilidades":window.screen.width>700?650*2:1780,
-  "proyectos":window.screen.width>700?2450:650*4.3,
-  "contactos":2850*2,
+  "Proyectos":window.screen.width>700?2450:650*4.3,
+  "Contactos":2850*2,
   "Home":0,
   "About":window.screen.width>700?650:950,
   "Skill":window.screen.width>700?650*2:1780,
