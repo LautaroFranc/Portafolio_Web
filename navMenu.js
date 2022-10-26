@@ -46,7 +46,7 @@ const objectScroll={
   "Contactos":2850*2,
   "Home":0,
   "About":window.screen.width>700?650:950,
-  "Skill":window.screen.width>700?650*2:1780,
+  "Skills":window.screen.width>700?650*2:1780,
   "Proyect":window.screen.width>700?2450:650*4.3,
   "Contact":2850*2
 }
