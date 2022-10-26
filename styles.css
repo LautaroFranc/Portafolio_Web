@@ -577,7 +577,8 @@ nav{
   height: 100vh;
   width: 100%;
   box-shadow: 40px 0px 100% #000000;
-  background:#070707;
+  background:#070707b6;
+  backdrop-filter: blur(20px);
   animation: menu 0.5s 1 ease ; 
 }
 @keyframes menu {
@@ -746,8 +747,8 @@ nav{
   margin-bottom:100px;
   width:100%;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   list-style: none;
 }
 
@@ -755,40 +756,43 @@ nav{
   border-radius: 5px;
   box-shadow:0px 0px 10px rgba(0, 0, 0, 0.993);
   margin:5px;
-  width:280px;
-  height:200px;
+  width:100%;
+  height:100px;
   overflow: hidden;
 }
+.item-lista li:hover{
+  width:100%;
+  height:200px;
+}
 .item-lista-img{
-  width: 170%;
-  object-position:-50px -20px;
+  width: 100%;
+  object-position:0px 0px;
   object-fit: cover;
 }
+
 
 #enlaces{
   position: absolute;
   overflow: hidden;
-  margin-top:-34ch;
-  width:280px;
-  height:200px;
+  margin-top:-30ch;
+  width:100%;
+  height:100px;
 }
 
 #enlaces a{
   border-radius: 5px;
-  background-color: #252525;
-  display:block;
+  background-color: #2525254b;
   text-decoration:none;
-  width:280px;
+  width:100%;
+  height:100px;
   font-family: 'Antic Slab', serif;
-  height:200px;
   padding:5px;
-  margin:200px 0;
   color:#fff;
   transition:margin 0.2s ease-in-out; 
 }
 #enlaces:hover a{
   margin:0px 0;
-
+  backdrop-filter: blur(20px);
 }
 
 #enlaces-text{

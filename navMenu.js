@@ -24,7 +24,7 @@ const handleLanguage = (e) =>{
 const ManuNav = () =>{
   for(const urlImg  of Img.attributes){
     if(urlImg.nodeName==="src" ){
-      Img.style.transform=nav.className==="nav-ul menu"?"rotate(0deg)":"rotate(295deg)";
+      Img.style.transform=nav.className==="nav-ul menu"?"rotate(0deg)":"rotate(320deg)";
       Img.style.transition="all 0.5s"
       urlImg.nodeValue= nav.className==="nav-ul menu"?urlSrc.menu2:urlSrc.menu1;
     }
@@ -63,7 +63,6 @@ const handleOnClick = e =>{
       urlImg.nodeValue="./img/icons8-menu.svg"
     }
   }
- 
 }
 
 
