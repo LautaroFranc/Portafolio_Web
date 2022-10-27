@@ -771,7 +771,7 @@ nav{
   font-family: 'Antic Slab', serif;
   padding:5px;
   margin:2px 5px;
-  font-size: 8pt;
+  font-size: 10pt;
   color:rgb(255, 255, 255); 
 }
 
@@ -844,6 +844,7 @@ nav{
   border-bottom:40px solid yellow;
 }
 .item-container-herramientas,.item-container-herramientas a{
+  font-size: 12pt;
   margin: 10px 2px;
   text-decoration: none;
   color: #fff;
