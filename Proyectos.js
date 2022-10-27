@@ -8,7 +8,7 @@ export default {
           <a href="#" class="icon_repo" target="_blank">
               <img src="./img/icons8-github.svg">
           </a>
-          <a href="https://pf-app-five.vercel.app/" class="icon_link" target="_blank">
+          <a href="https://movies-detall.netlify.app/" class="icon_link" target="_blank">
               <img src="https://img.icons8.com/nolan/344/1A6DFF/C822FF/link.png">
           </a>
         </div>
@@ -29,7 +29,7 @@ export default {
         <a href="#" class="icon_repo" target="_blank">
             <img src="./img/icons8-github.svg">
         </a>
-        <a href="https://pf-app-five.vercel.app/" class="icon_link" target="_blank">
+        <a href="https://dogsraze.vercel.app/" class="icon_link" target="_blank">
             <img src="https://img.icons8.com/nolan/344/1A6DFF/C822FF/link.png">
         </a>
       </div>
@@ -52,7 +52,7 @@ export default {
         <a href="#" class="icon_repo" target="_blank">
             <img src="./img/icons8-github.svg">
         </a>
-        <a href="https://pf-app-five.vercel.app/" class="icon_link" target="_blank">
+        <a href="https://pokemon-api-beta-umber.vercel.app" class="icon_link" target="_blank">
             <img src="https://img.icons8.com/nolan/344/1A6DFF/C822FF/link.png">
         </a>
       </div>
