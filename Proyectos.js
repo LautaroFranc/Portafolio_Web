@@ -5,7 +5,7 @@ export default {
   <div id="enlaces">
       <p id="enlaces-text">
         <div class="icon_enlaces">
-          <a href="#" class="icon_repo" target="_blank">
+          <a href="https://github.com/LautaroFranc/web-movie" class="icon_repo" target="_blank">
               <img src="./img/icons8-github.svg">
           </a>
           <a href="https://movies-detall.netlify.app/" class="icon_link" target="_blank">
@@ -26,7 +26,7 @@ export default {
     <div id="enlaces">
    <p id="enlaces-text">
       <div class="icon_enlaces">
-        <a href="#" class="icon_repo" target="_blank">
+        <a href="https://github.com/LautaroFranc/Dog_app" class="icon_repo" target="_blank">
             <img src="./img/icons8-github.svg">
         </a>
         <a href="https://dogsraze.vercel.app/" class="icon_link" target="_blank">
@@ -49,7 +49,7 @@ export default {
     <div id="enlaces">
     <p id="enlaces-text">
       <div class="icon_enlaces">
-        <a href="#" class="icon_repo" target="_blank">
+        <a href="https://github.com/LautaroFranc/Pokemon-Api" class="icon_repo" target="_blank">
             <img src="./img/icons8-github.svg">
         </a>
         <a href="https://pokemon-api-beta-umber.vercel.app" class="icon_link" target="_blank">
@@ -69,7 +69,7 @@ export default {
     <img  class="item-lista-img" src="./img/fit-focus.png" alt="fit focus"> 
     <div id="enlaces">
     <div class="icon_enlaces">
-      <a href="#" class="icon_repo" target="_blank">
+      <a href="https://github.com/LautaroFranc/Fit-Focus" class="icon_repo" target="_blank">
           <img src="./img/icons8-github.svg" >
       </a>
       <a href="https://pf-app-five.vercel.app/" class="icon_link" target="_blank">
