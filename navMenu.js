@@ -48,7 +48,7 @@ const objectScroll={
   "About":window.screen.width>700?650:950,
   "Skills":window.screen.width>700?650*2:1780,
   "Proyect":window.screen.width>700?2450:650*4.3,
-  "Contact":2850*2
+  "Contacts":2850*2
 }
 
 const handleOnClick = e =>{
